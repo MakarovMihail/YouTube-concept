@@ -1,0 +1,91 @@
+@import url(https://fonts.googleapis.com/css?family=Mulish:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+*{
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    padding: 20px 70px 20px 32px;
+}
+.menu__button{
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #fff;
+    width: 20px;
+    height: 17px;
+    border: none;
+    margin: 0 28px 0 0;
+    cursor: pointer;
+}
+.menu-line{
+    background-color: #1F2022;
+    width: 20px;
+    height: 3px;
+    display: block;
+    border-radius: 20px;
+}
+.input-group{
+    display: flex;
+    justify-content: space-between;
+    background: #EBEBEB;
+    border-radius: 22px;
+    align-items: center;
+    padding: 0 17px 0 0;
+    max-width: 830px;
+    width: 50%;
+    height: 44px;
+    margin: 0 0 0 59px;
+    
+}
+.input-search{
+    padding: 12px 0 12px 23px;
+    border: none;
+    background-color: transparent;
+    font-family: Mulish;
+    font-family: 16px;
+}
+.button-search{
+    padding: 0;
+    width: 19px;
+    height: 19px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    
+}
+.icons{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+.icons-link{
+    text-decoration: none;
+    opacity:.24;
+}
+.icons-link:not(:last-child){
+    margin: 0 50px 0 0;
+}
+.icon-search{
+    fill: #000;
+}
+
+.icon-video:hover{
+    opacity:.8;
+}
+
+.icon-menu:hover{
+    opacity:.8;
+}
+
+.icon-sub:hover{
+    opacity:.8;
+}
+.user-avatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0 70px 0 45px;
+}
